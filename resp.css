@@ -1,0 +1,70 @@
+/* Estilos generales para el nav */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+/* Estilos para dispositivos con ancho menor o igual a 768px */
+@media only screen and (max-width: 768px) {
+    nav {
+        display: none; /* Oculta el nav en pantallas pequeñas */
+    }
+}
+
+body {
+    margin-top: 250px;
+    padding: 0;
+    background-image: url('11.jpg');
+    background-size: 100% auto;
+    background-position: center 150px; /* Baja la imagen 50px */
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    margin-top: 0; /* Ajusta el margen superior del cuerpo */
+}
+
+footer {
+    margin-top: 50px;
+    position: static; /* Fija el footer en una posición */
+    bottom: 0; /* Lo coloca en la parte inferior de la ventana */
+    left: 0; /* Lo coloca en la esquina izquierda */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 10px 0; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 570px; /* Ajusta este valor según sea necesario */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: rgb(120, 120, 120); /* Color de texto predeterminado */
+    text-decoration: none;
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+nav ul li a:hover {
+    color: orange; /* Color de texto al pasar el mouse o cuando está activo */
+}
+
+

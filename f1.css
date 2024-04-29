@@ -1,0 +1,145 @@
+input[type="text"],
+textarea {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    width: calc(100% - 22px); /* Ancho del 100% menos el ancho del borde */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Estilos para los radio buttons y checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: calc(100% - 22px); /* Ancho del 100% menos el ancho del borde */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    cursor: pointer;
+}
+
+/* Estilos para las etiquetas */
+label {
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+/* Estilos para el encabezado */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 20px;
+    z-index: 9999; /* Asegura que el nav esté sobre otros elementos */
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 20px;
+}
+
+/* Estilos para el contenedor del formulario */
+
+.formulario-container {
+    width: 50%;
+    margin: 120px auto 20px;
+    padding: 20px;
+    background-color: #eceaea;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px; /* Añade margen superior al formulario */
+}
+
+
+
+/* Estilos para los campos de texto y select dentro del contenedor */
+.formulario-container input[type="text"],
+.formulario-container select {
+    width: calc(50% - 5px); /* Ancho del 50% menos el margen entre elementos */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para los contenedores de radio buttons y select */
+.sexo-container,
+.raza-edad-color-container,
+.modo-razon-container {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los radio buttons dentro de su contenedor */
+.sexo-container input[type="radio"],
+.sexo-container label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Estilos para las etiquetas y select dentro del contenedor de modo de obtención y razón de tenencia */
+.modo-razon-container label,
+.modo-razon-container select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el contenedor del formulario */
+.formulario-container {
+    width: 50%;
+    margin: 80px auto 20px; /* Se ajusta el margen superior para dejar espacio para el nav */
+    padding: 20px;
+    background-color: #a4a3a3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+/* Estilos para el contenedor de modo y razón */
+.modo-razon-container > div {
+    margin-bottom: 10px; /* Espacio entre cada par de título y selector */
+}
+
+/* Estilos para los títulos */
+.modo-razon-container label {
+    display: inline-block; /* Muestra los títulos en línea */
+    width: 30%; /* Establece el ancho deseado para los títulos */
+    text-align: right; /* Alinea el texto a la derecha */
+    margin-right: 10px; /* Espacio entre el título y el selector */
+}
+
+/* Estilos para los selectores */
+.modo-razon-container select {
+    display: inline-block; /* Muestra los selectores en línea */
+    width: 60%; /* Establece el ancho deseado para los selectores */
+    padding: 5px; /* Opcional: Añade relleno para mejorar la apariencia */
+    border-radius: 5px; /* Opcional: Añade bordes redondeados para mejorar la apariencia */
+    border: 1px solid #ccc; /* Opcional: Añade un borde alrededor de los selectores */
+}
+
+
+
+
+
